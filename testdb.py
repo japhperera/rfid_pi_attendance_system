@@ -14,5 +14,7 @@ mycursor.execute("SHOW DATABASES")
 
 for x in mycursor:
   print(x)
+  
+ # this is a comment
 
 
