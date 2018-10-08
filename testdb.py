@@ -18,6 +18,6 @@ mycursor.execute(create_query)
 for x in mycursor:
   print(x)
   
- # this is a comment
+ # this is a comment s
 
 
