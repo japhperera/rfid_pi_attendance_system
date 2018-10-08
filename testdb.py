@@ -18,6 +18,10 @@ mycursor.execute(create_query)
 for x in mycursor:
   print(x)
   
+<<<<<<< HEAD
  # this is a comment s
+=======
+ # this is a comment
+>>>>>>> 7404f18995eb4abacebaa65efbaf0410b193ba1d
 
 
