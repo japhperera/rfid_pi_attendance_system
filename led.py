@@ -10,7 +10,7 @@ GPIO.setup(18,GPIO.OUT)
 while True:
 	print"LED on"
 	GPIO.output(18,GPIO.HIGH)
-	time.sleep(2)
+	time.sleep(1)
 	print "LED 0ff"
 	GPIO.output(18,GPIO.LOW)
-	time.sleep(2)
+	time.sleep(1)
