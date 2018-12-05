@@ -11,7 +11,7 @@ import numpy as np
 import os 
 
 recognizer = cv2.face.LBPHFaceRecognizer_create()
-recognizer.read('trainer/trainer.yml')
+recognizer.read('/root/face_db/trainer/trainer.yml')
 cascadePath = "/root/opencv-3.4.1/data/haarcascades/haarcascade_frontalface_default.xml"
 faceCascade = cv2.CascadeClassifier(cascadePath);
 
