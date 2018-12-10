@@ -31,10 +31,10 @@ def get_data():
 
 def update_db(name, tag):
 	mydb = mysql.connector.connect(
- 			host="localhost",
-  			user="pi",
+ 			host="https://taxing-degrees.000webhostapp.com",
+  			user="id8179881_root",
   			passwd="pi@123",
- 			database="AT_SYS"
+ 			database="id8179881_rfidprojectsliit"
 	)
 
 	mycursor = mydb.cursor()
